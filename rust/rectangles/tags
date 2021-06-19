@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/davide/dev/playground/rust/rectangles/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+0	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	o	array:local
+0	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	o	array:local
+0	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	o	array:local
+17598535894874457435	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+2797684049618456168	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+931469667778813386	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	o	object:outputs
+CheckDepInfo	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	o	object:local.0
+CheckDepInfo	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	o	object:local.0
+Rectangle	src/main.rs	/^impl Rectangle {$/;"	c
+Rectangle	src/main.rs	/^struct Rectangle {$/;"	s
+area	src/main.rs	/^    fn area(&self) -> u32 {$/;"	P	implementation:Rectangle
+can_hold	src/main.rs	/^    fn can_hold(&self, rectangle: &Rectangle) -> bool {$/;"	P	implementation:Rectangle
+code	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.17598535894874457435
+code	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.2797684049618456168
+code	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	n	object:outputs.931469667778813386
+compile_kind	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	n
+compile_kind	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	n
+compile_kind	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	n
+config	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	n
+config	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	n
+config	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	n
+dep_info	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	s	object:local.0.CheckDepInfo
+dep_info	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	s	object:local.0.CheckDepInfo
+deps	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	a
+deps	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	a
+deps	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	a
+features	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	s
+features	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	s
+features	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	s
+height	src/main.rs	/^    height: u32,$/;"	m	struct:Rectangle
+local	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	a
+local	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	a
+local	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	a
+main	src/main.rs	/^fn main() {$/;"	f
+metadata	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	n
+metadata	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	n
+metadata	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	n
+outputs	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
+path	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	n
+path	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	n
+path	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	n
+perimeter	src/main.rs	/^    fn perimeter(&self) -> u32 {$/;"	P	implementation:Rectangle
+profile	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	n
+profile	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	n
+profile	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	n
+rustc	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	n
+rustc	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	n
+rustc	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	n
+rustc_fingerprint	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	n
+rustflags	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	a
+rustflags	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	a
+rustflags	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	a
+square	src/main.rs	/^    fn square(size: u32) -> Rectangle {$/;"	P	implementation:Rectangle
+status	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
+status	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
+status	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
+stderr	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.17598535894874457435
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.2797684049618456168
+stdout	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	s	object:outputs.931469667778813386
+success	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.17598535894874457435
+success	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.2797684049618456168
+success	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	b	object:outputs.931469667778813386
+successes	target/.rustc_info.json	/^{"rustc_fingerprint":17162664234450653067,"outputs":{"931469667778813386":{"success":true,"statu/;"	o
+target	target/debug/.fingerprint/rectangles-62d7dd0fe3d315d0/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1810859012/;"	n
+target	target/debug/.fingerprint/rectangles-840a338661720f13/test-bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":6415348288/;"	n
+target	target/debug/.fingerprint/rectangles-8a39f7469e7d1ddd/bin-rectangles.json	/^{"rustc":10026429466883849012,"features":"[]","target":10802156012062440703,"profile":1144844575/;"	n
+width	src/main.rs	/^    width: u32,$/;"	m	struct:Rectangle
