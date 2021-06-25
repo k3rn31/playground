@@ -1,0 +1,172 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/davide/dev/playground/proglog/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+Append	internal/log/log.go	/^func (l *Log) Append(record *api.Record) (uint64, error) {$/;"	f	struct:log.Log	typeref:typename:(uint64, error)
+Append	internal/log/segment.go	/^func (s *segment) Append(record *api.Record) (offset uint64, err error) {$/;"	f	struct:log.segment	typeref:typename:(offset uint64, err error)
+Append	internal/log/store.go	/^func (s *store) Append(p []byte) (n uint64, pos uint64, err error) {$/;"	f	struct:log.store	typeref:typename:(n uint64, pos uint64, err error)
+Append	internal/server/log.go	/^func (l *Log) Append(record Record) (uint64, error) {$/;"	f	struct:server.Log	typeref:typename:(uint64, error)
+Close	internal/log/index.go	/^func (i *index) Close() error {$/;"	f	struct:log.index	typeref:typename:error
+Close	internal/log/log.go	/^func (l *Log) Close() error {$/;"	f	struct:log.Log	typeref:typename:error
+Close	internal/log/segment.go	/^func (s *segment) Close() error {$/;"	f	struct:log.segment	typeref:typename:error
+Close	internal/log/store.go	/^func (s *store) Close() error {$/;"	f	struct:log.store	typeref:typename:error
+Config	internal/log/config.go	/^type Config struct {$/;"	s	package:log
+Config	internal/log/log.go	/^	Config Config$/;"	m	struct:log.Log	typeref:typename:Config
+ConsumeRequest	internal/server/http.go	/^type ConsumeRequest struct {$/;"	s	package:server
+ConsumeResponse	internal/server/http.go	/^type ConsumeResponse struct {$/;"	s	package:server
+Descriptor	api/v1/log.pb.go	/^func (*Record) Descriptor() ([]byte, []int) {$/;"	f	struct:log_v1.Record	typeref:typename:([]byte, []int)
+Dir	internal/log/log.go	/^	Dir    string$/;"	m	struct:log.Log	typeref:typename:string
+Distributed Services with Go	README.md	/^# Distributed Services with Go$/;"	c
+ErrOffsetNotFound	internal/server/log.go	/^var ErrOffsetNotFound = fmt.Errorf("offset not found")$/;"	v	package:server
+File	internal/log/store.go	/^	*os.File$/;"	M	struct:log.store	typeref:typename:*os.File
+File_api_v1_log_proto	api/v1/log.pb.go	/^var File_api_v1_log_proto protoreflect.FileDescriptor$/;"	v	package:log_v1	typeref:typename:protoreflect.FileDescriptor
+GetOffset	api/v1/log.pb.go	/^func (x *Record) GetOffset() uint64 {$/;"	f	struct:log_v1.Record	typeref:typename:uint64
+GetValue	api/v1/log.pb.go	/^func (x *Record) GetValue() []byte {$/;"	f	struct:log_v1.Record	typeref:typename:[]byte
+HighestOffset	internal/log/log.go	/^func (l *Log) HighestOffset() (uint64, error) {$/;"	f	struct:log.Log	typeref:typename:(uint64, error)
+InitialOffset	internal/log/config.go	/^	InitialOffset uint64$/;"	m	struct:log.Segment	typeref:typename:uint64
+IsMaxed	internal/log/segment.go	/^func (s *segment) IsMaxed() bool {$/;"	f	struct:log.segment	typeref:typename:bool
+Log	internal/log/log.go	/^type Log struct {$/;"	s	package:log
+Log	internal/server/http.go	/^	Log *Log$/;"	m	struct:server.logServer	typeref:typename:*Log
+Log	internal/server/log.go	/^type Log struct {$/;"	s	package:server
+LowestOffset	internal/log/log.go	/^func (l *Log) LowestOffset() (uint64, error) {$/;"	f	struct:log.Log	typeref:typename:(uint64, error)
+MaxIndexBytes	internal/log/config.go	/^	MaxIndexBytes uint64$/;"	m	struct:log.Segment	typeref:typename:uint64
+MaxStoreBytes	internal/log/config.go	/^	MaxStoreBytes uint64$/;"	m	struct:log.Segment	typeref:typename:uint64
+Name	internal/log/index.go	/^func (i *index) Name() string {$/;"	f	struct:log.index	typeref:typename:string
+NewHTTPServer	internal/server/http.go	/^func NewHTTPServer(addr string) *http.Server {$/;"	f	package:server	typeref:typename:*http.Server
+NewLog	internal/log/log.go	/^func NewLog(dir string, c Config) (*Log, error) {$/;"	f	package:log	typeref:typename:(*Log, error)
+NewLog	internal/server/log.go	/^func NewLog() *Log {$/;"	f	package:server	typeref:typename:*Log
+Offset	api/v1/log.pb.go	/^	Offset uint64 `protobuf:"varint,2,opt,name=offset,proto3" json:"offset,omitempty"`$/;"	m	struct:log_v1.Record	typeref:typename:uint64
+Offset	internal/server/http.go	/^	Offset uint64 `json:"offset"`$/;"	m	struct:server.ConsumeRequest	typeref:typename:uint64
+Offset	internal/server/http.go	/^	Offset uint64 `json:"offset"`$/;"	m	struct:server.ProduceResponse	typeref:typename:uint64
+Offset	internal/server/log.go	/^	Offset uint64 `json:"offset"`$/;"	m	struct:server.Record	typeref:typename:uint64
+ProduceRequest	internal/server/http.go	/^type ProduceRequest struct {$/;"	s	package:server
+ProduceResponse	internal/server/http.go	/^type ProduceResponse struct {$/;"	s	package:server
+ProtoMessage	api/v1/log.pb.go	/^func (*Record) ProtoMessage() {}$/;"	f	struct:log_v1.Record
+ProtoReflect	api/v1/log.pb.go	/^func (x *Record) ProtoReflect() protoreflect.Message {$/;"	f	struct:log_v1.Record	typeref:typename:protoreflect.Message
+Read	internal/log/index.go	/^func (i *index) Read(in int64) (out uint32, pos uint64, err error) {$/;"	f	struct:log.index	typeref:typename:(out uint32, pos uint64, err error)
+Read	internal/log/log.go	/^func (l *Log) Read(off uint64) (*api.Record, error) {$/;"	f	struct:log.Log	typeref:typename:(*api.Record, error)
+Read	internal/log/log.go	/^func (o *originReader) Read(p []byte) (int, error) {$/;"	f	struct:log.originReader	typeref:typename:(int, error)
+Read	internal/log/segment.go	/^func (s *segment) Read(off uint64) (*api.Record, error) {$/;"	f	struct:log.segment	typeref:typename:(*api.Record, error)
+Read	internal/log/store.go	/^func (s *store) Read(pos uint64) ([]byte, error) {$/;"	f	struct:log.store	typeref:typename:([]byte, error)
+Read	internal/server/log.go	/^func (l *Log) Read(offset uint64) (Record, error) {$/;"	f	struct:server.Log	typeref:typename:(Record, error)
+ReadAt	internal/log/store.go	/^func (s *store) ReadAt(p []byte, off int64) (int, error) {$/;"	f	struct:log.store	typeref:typename:(int, error)
+Reader	internal/log/log.go	/^func (l *Log) Reader() io.Reader {$/;"	f	struct:log.Log	typeref:typename:io.Reader
+Record	api/v1/log.pb.go	/^type Record struct {$/;"	s	package:log_v1
+Record	api/v1/log.proto	/^message Record {$/;"	m	package:log.v1
+Record	internal/server/http.go	/^	Record Record `json:"record"`$/;"	m	struct:server.ConsumeResponse	typeref:typename:Record
+Record	internal/server/http.go	/^	Record Record `json:"record"`$/;"	m	struct:server.ProduceRequest	typeref:typename:Record
+Record	internal/server/log.go	/^type Record struct {$/;"	s	package:server
+Remove	internal/log/log.go	/^func (l *Log) Remove() error {$/;"	f	struct:log.Log	typeref:typename:error
+Remove	internal/log/segment.go	/^func (s *segment) Remove() error {$/;"	f	struct:log.segment	typeref:typename:error
+Reset	api/v1/log.pb.go	/^func (x *Record) Reset() {$/;"	f	struct:log_v1.Record
+Reset	internal/log/log.go	/^func (l *Log) Reset() error {$/;"	f	struct:log.Log	typeref:typename:error
+Segment	internal/log/config.go	/^	Segment Segment$/;"	m	struct:log.Config	typeref:typename:Segment
+Segment	internal/log/config.go	/^type Segment struct {$/;"	s	package:log
+String	api/v1/log.pb.go	/^func (x *Record) String() string {$/;"	f	struct:log_v1.Record	typeref:typename:string
+TestIndex	internal/log/index_test.go	/^func TestIndex(t *testing.T) {$/;"	f	package:log
+TestLog	internal/log/log_test.go	/^func TestLog(t *testing.T) {$/;"	f	package:log
+TestSegment	internal/log/segment_test.go	/^func TestSegment(t *testing.T) {$/;"	f	package:log
+TestStoreAppendRead	internal/log/store_test.go	/^func TestStoreAppendRead(t *testing.T) {$/;"	f	package:log
+TestStoreClose	internal/log/store_test.go	/^func TestStoreClose(t *testing.T) {$/;"	f	package:log
+Truncate	internal/log/log.go	/^func (l *Log) Truncate(lowest uint64) error {$/;"	f	struct:log.Log	typeref:typename:error
+Value	api/v1/log.pb.go	/^	Value  []byte `protobuf:"bytes,1,opt,name=value,proto3" json:"value,omitempty"`$/;"	m	struct:log_v1.Record	typeref:typename:[]byte
+Value	internal/server/log.go	/^	Value  []byte `json:"value"`$/;"	m	struct:server.Record	typeref:typename:[]byte
+Write	internal/log/index.go	/^func (i *index) Write(off uint32, pos uint64) error {$/;"	f	struct:log.index	typeref:typename:error
+_	api/v1/log.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c	package:log_v1
+_	api/v1/log.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c	package:log_v1
+_	api/v1/log.pb.go	/^const _ = proto.ProtoPackageIsVersion4$/;"	c	package:log_v1
+activeSegment	internal/log/log.go	/^	activeSegment *segment$/;"	m	struct:log.Log	typeref:typename:*segment
+api	internal/log/log.go	/^	api "github.com\/k3rn31\/playground\/proglog\/api\/v1"$/;"	P	package:github.com/k3rn31/playground/proglog/api/v1
+api	internal/log/log_test.go	/^	api "github.com\/k3rn31\/playground\/proglog\/api\/v1"$/;"	P	package:github.com/k3rn31/playground/proglog/api/v1
+api	internal/log/segment.go	/^	api "github.com\/k3rn31\/playground\/proglog\/api\/v1"$/;"	P	package:github.com/k3rn31/playground/proglog/api/v1
+api	internal/log/segment_test.go	/^	api "github.com\/k3rn31\/playground\/proglog\/api\/v1"$/;"	P	package:github.com/k3rn31/playground/proglog/api/v1
+baseOffset	internal/log/segment.go	/^	baseOffset, nextOffset uint64$/;"	m	struct:log.segment	typeref:typename:uint64
+buf	internal/log/store.go	/^	buf  *bufio.Writer$/;"	m	struct:log.store	typeref:typename:*bufio.Writer
+compile	Makefile	/^compile:$/;"	t
+config	internal/log/segment.go	/^	config                 Config$/;"	m	struct:log.segment	typeref:typename:Config
+enc	internal/log/store.go	/^var enc = binary.BigEndian$/;"	v	package:log
+entWidth	internal/log/index.go	/^	entWidth        = offWidth + posWidth$/;"	c	package:log
+file	internal/log/index.go	/^	file *os.File$/;"	m	struct:log.index	typeref:typename:*os.File
+file_api_v1_log_proto_depIdxs	api/v1/log.pb.go	/^var file_api_v1_log_proto_depIdxs = []int32{$/;"	v	package:log_v1
+file_api_v1_log_proto_goTypes	api/v1/log.pb.go	/^var file_api_v1_log_proto_goTypes = []interface{}{$/;"	v	package:log_v1
+file_api_v1_log_proto_init	api/v1/log.pb.go	/^func file_api_v1_log_proto_init() {$/;"	f	package:log_v1
+file_api_v1_log_proto_msgTypes	api/v1/log.pb.go	/^var file_api_v1_log_proto_msgTypes = make([]protoimpl.MessageInfo, 1)$/;"	v	package:log_v1
+file_api_v1_log_proto_rawDesc	api/v1/log.pb.go	/^var file_api_v1_log_proto_rawDesc = []byte{$/;"	v	package:log_v1
+file_api_v1_log_proto_rawDescData	api/v1/log.pb.go	/^	file_api_v1_log_proto_rawDescData = file_api_v1_log_proto_rawDesc$/;"	v	package:log_v1
+file_api_v1_log_proto_rawDescGZIP	api/v1/log.pb.go	/^func file_api_v1_log_proto_rawDescGZIP() []byte {$/;"	f	package:log_v1	typeref:typename:[]byte
+file_api_v1_log_proto_rawDescOnce	api/v1/log.pb.go	/^	file_api_v1_log_proto_rawDescOnce sync.Once$/;"	v	package:log_v1	typeref:typename:sync.Once
+handleConsume	internal/server/http.go	/^func (s *logServer) handleConsume(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:server.logServer
+handleProduce	internal/server/http.go	/^func (s *logServer) handleProduce(w http.ResponseWriter, r *http.Request) {$/;"	f	struct:server.logServer
+index	internal/log/index.go	/^type index struct {$/;"	s	package:log
+index	internal/log/segment.go	/^	index                  *index$/;"	m	struct:log.segment	typeref:typename:*index
+init	api/v1/log.pb.go	/^func init() { file_api_v1_log_proto_init() }$/;"	f	package:log_v1
+lenWidth	internal/log/store.go	/^	lenWidth = 8$/;"	c	package:log
+log	internal/log/config.go	/^package log$/;"	p
+log	internal/log/index.go	/^package log$/;"	p
+log	internal/log/index_test.go	/^package log$/;"	p
+log	internal/log/log.go	/^package log$/;"	p
+log	internal/log/log_test.go	/^package log$/;"	p
+log	internal/log/segment.go	/^package log$/;"	p
+log	internal/log/segment_test.go	/^package log$/;"	p
+log	internal/log/store.go	/^package log$/;"	p
+log	internal/log/store_test.go	/^package log$/;"	p
+log.v1	api/v1/log.proto	/^package log.v1;$/;"	p
+logServer	internal/server/http.go	/^type logServer struct {$/;"	s	package:server
+log_v1	api/v1/log.pb.go	/^package log_v1$/;"	p
+main	cmd/server/main.go	/^func main() {$/;"	f	package:main
+main	cmd/server/main.go	/^package main$/;"	p
+mmap	internal/log/index.go	/^	mmap gommap.MMap$/;"	m	struct:log.index	typeref:typename:gommap.MMap
+mu	internal/log/log.go	/^	mu sync.RWMutex$/;"	m	struct:log.Log	typeref:typename:sync.RWMutex
+mu	internal/log/store.go	/^	mu   sync.Mutex$/;"	m	struct:log.store	typeref:typename:sync.Mutex
+mu	internal/server/log.go	/^	mu      sync.Mutex$/;"	m	struct:server.Log	typeref:typename:sync.Mutex
+nearestMultiple	internal/log/segment.go	/^func nearestMultiple(j, k uint64) uint64 {$/;"	f	package:log	typeref:typename:uint64
+newIndex	internal/log/index.go	/^func newIndex(f *os.File, c Config) (*index, error) {$/;"	f	package:log	typeref:typename:(*index, error)
+newLogServer	internal/server/http.go	/^func newLogServer() *logServer {$/;"	f	package:server	typeref:typename:*logServer
+newSegment	internal/log/log.go	/^func (l *Log) newSegment(off uint64) error {$/;"	f	struct:log.Log	typeref:typename:error
+newSegment	internal/log/segment.go	/^func newSegment(dir string, baseOffset uint64, c Config) (*segment, error) {$/;"	f	package:log	typeref:typename:(*segment, error)
+newStore	internal/log/store.go	/^func newStore(f *os.File) (*store, error) {$/;"	f	package:log	typeref:typename:(*store, error)
+nextOffset	internal/log/segment.go	/^	baseOffset, nextOffset uint64$/;"	m	struct:log.segment	typeref:typename:uint64
+off	internal/log/log.go	/^	off int64$/;"	m	struct:log.originReader	typeref:typename:int64
+offWidth	internal/log/index.go	/^	offWidth uint64 = 4$/;"	c	package:log	typeref:typename:uint64
+offset	api/v1/log.proto	/^  uint64 offset = 2;$/;"	f	message:log.v1.Record	typeref:typename:uint64
+openFile	internal/log/store_test.go	/^func openFile(name string) (file *os.File, size int64, err error) {$/;"	f	package:log	typeref:typename:(file *os.File, size int64, err error)
+originReader	internal/log/log.go	/^type originReader struct {$/;"	s	package:log
+posWidth	internal/log/index.go	/^	posWidth uint64 = 8$/;"	c	package:log	typeref:typename:uint64
+proto	api/v1/log.pb.go	/^	proto "github.com\/golang\/protobuf\/proto"$/;"	P	package:github.com/golang/protobuf/proto
+protoimpl	api/v1/log.pb.go	/^	protoimpl "google.golang.org\/protobuf\/runtime\/protoimpl"$/;"	P	package:google.golang.org/protobuf/runtime/protoimpl
+protoreflect	api/v1/log.pb.go	/^	protoreflect "google.golang.org\/protobuf\/reflect\/protoreflect"$/;"	P	package:google.golang.org/protobuf/reflect/protoreflect
+records	internal/server/log.go	/^	records []Record$/;"	m	struct:server.Log	typeref:typename:[]Record
+reflect	api/v1/log.pb.go	/^	reflect "reflect"$/;"	P	package:reflect
+segment	internal/log/segment.go	/^type segment struct {$/;"	s	package:log
+segments	internal/log/log.go	/^	segments      []*segment$/;"	m	struct:log.Log	typeref:typename:[]*segment
+server	internal/server/http.go	/^package server$/;"	p
+server	internal/server/log.go	/^package server$/;"	p
+setup	internal/log/log.go	/^func (l *Log) setup() error {$/;"	f	struct:log.Log	typeref:typename:error
+size	internal/log/index.go	/^	size uint64$/;"	m	struct:log.index	typeref:typename:uint64
+size	internal/log/store.go	/^	size uint64$/;"	m	struct:log.store	typeref:typename:uint64
+sizeCache	api/v1/log.pb.go	/^	sizeCache     protoimpl.SizeCache$/;"	m	struct:log_v1.Record	typeref:typename:protoimpl.SizeCache
+state	api/v1/log.pb.go	/^	state         protoimpl.MessageState$/;"	m	struct:log_v1.Record	typeref:typename:protoimpl.MessageState
+store	internal/log/log.go	/^	*store$/;"	M	struct:log.originReader	typeref:typename:*store
+store	internal/log/segment.go	/^	store                  *store$/;"	m	struct:log.segment	typeref:typename:*store
+store	internal/log/store.go	/^type store struct {$/;"	s	package:log
+sync	api/v1/log.pb.go	/^	sync "sync"$/;"	P	package:sync
+test	Makefile	/^test:$/;"	t
+testAppend	internal/log/store_test.go	/^func testAppend(t *testing.T, s *store) {$/;"	f	package:log
+testAppendRead	internal/log/log_test.go	/^func testAppendRead(t *testing.T, log *Log) {$/;"	f	package:log
+testInitExistin	internal/log/log_test.go	/^func testInitExistin(t *testing.T, o *Log) {$/;"	f	package:log
+testOutOfRangeErr	internal/log/log_test.go	/^func testOutOfRangeErr(t *testing.T, log *Log) {$/;"	f	package:log
+testRead	internal/log/store_test.go	/^func testRead(t *testing.T, s *store) {$/;"	f	package:log
+testReadAt	internal/log/store_test.go	/^func testReadAt(t *testing.T, s io.ReaderAt) {$/;"	f	package:log
+testReader	internal/log/log_test.go	/^func testReader(t *testing.T, log *Log) {$/;"	f	package:log
+testTruncate	internal/log/log_test.go	/^func testTruncate(t *testing.T, log *Log) {$/;"	f	package:log
+unknownFields	api/v1/log.pb.go	/^	unknownFields protoimpl.UnknownFields$/;"	m	struct:log_v1.Record	typeref:typename:protoimpl.UnknownFields
+value	api/v1/log.proto	/^  bytes value = 1;$/;"	f	message:log.v1.Record	typeref:typename:bytes
+width	internal/log/store_test.go	/^	width = uint64(len(write)) + lenWidth$/;"	v	package:log
+write	internal/log/store_test.go	/^	write = []byte("hello world")$/;"	v	package:log

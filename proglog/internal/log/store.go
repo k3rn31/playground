@@ -85,5 +85,6 @@ func (s *store) Close() error {
 	if err != nil {
 		return err
 	}
+
 	return s.File.Close()
 }
